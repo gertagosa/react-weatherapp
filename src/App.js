@@ -15,7 +15,10 @@ export default function App() {
             rel="noreferrer"
           >
             open-sourced on GitHub
-          </a>
+          </a>{""}
+          and{""}
+          <a 
+          href=""
         </footer>
       </div>
     </div>
