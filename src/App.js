@@ -15,10 +15,17 @@ export default function App() {
             rel="noreferrer"
           >
             open-sourced on GitHub
-          </a>{""}
-          and{""}
-          <a 
-          href=""   target="_blank" rel="noopener noreferrer"
+          </a>
+          {""}
+          and {""}
+          <a
+            href="https://app.netlify.com/sites/storied-sunflower-ccd154/overview"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {" "}
+            hosted on Netlify
+          </a>
         </footer>
       </div>
     </div>
