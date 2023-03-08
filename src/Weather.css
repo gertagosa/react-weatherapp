@@ -1,9 +1,15 @@
+body {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXTRzhuu3AKQu4yd6-TE9zD958QU6VisuHaw&usqp=CAU);
+  background-size: cover;
+}
 .Weather {
   font-family: arial, sans-serif;
   border: 1px solid #dadde1;
   padding: 16px;
   border-radius: 4px;
   color: rgb(135, 135, 135);
+  border-color: black;
+  color: darkblue;
 }
 
 .Weather h1 {
@@ -11,11 +17,13 @@
   font-weight: 100;
   margin: 20px 0 0 0;
   line-height: 29px;
+  color: darkblue;
 }
 
 .Weather ul {
   margin: 0;
   padding: 0;
+  color: black;
 }
 
 .Weather li {
@@ -23,11 +31,12 @@
   font-weight: 100;
   line-height: 19px;
   list-style: none;
+  color: black;
 }
 
 .Weather .temperature {
   font-weight: bold;
-  color: rgb(33, 33, 33);
+  color: black;
   font-size: 64px;
   line-height: 64px;
   margin-left: 5px;
